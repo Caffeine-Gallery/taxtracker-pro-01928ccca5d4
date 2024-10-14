@@ -1,0 +1,62 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #0a0a0a;
+    color: #00ff00;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form-container, .search-container, .list-container {
+    background-color: #1a1a1a;
+    border: 1px solid #00ff00;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #0a0a0a;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+}
+
+button {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: #0a0a0a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+    border-bottom: 1px solid #00ff00;
+}
+
+#searchResult {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #00ff00;
+}
